@@ -32,6 +32,7 @@ export interface PhoneInputProps {
   layout?: "first" | "second";
   filterProps?: CountryFilterProps;
   countryPickerProps?: any;
+  maxLength?: number;
 }
 export interface PhoneInputState {
   code: CallingCode | undefined;
