@@ -19,6 +19,8 @@ export interface PhoneInputProps {
   onChangeCountry?: (country: Country) => void;
   onChangeText?: (text: string) => void;
   onChangeFormattedText?: (text: string) => void;
+  onBlur?: () => void;
+  onFocus?: () => void;
   renderDropdownImage?: JSX.Element;
   containerStyle?: StyleProp<ViewStyle>;
   textContainerStyle?: StyleProp<ViewStyle>;
